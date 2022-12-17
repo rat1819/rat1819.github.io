@@ -1,3 +1,4 @@
-#rat1819.github.io
-this is my personal github website/portfolio, used to experiment and share projects.
-this entire repository is written by me, though ive taken inspiration from some (public) websites.
+# rat1819.github.io
+
+this is my website, used for experiments and projects.
+contact me on discord: rat!#1685
