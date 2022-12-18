@@ -1,0 +1,31 @@
+:root {
+    --bg-color:rgb(20, 20, 20);
+}
+
+body {
+    background-color: var(--bg-color);
+    display: flex;
+    height: 0vh;
+    margin: 0px;
+    overflow: hidden;
+    padding: 0px;
+    place-items: center;
+}
+
+h1 {
+    color: white;
+    font-family: serif;
+    font-size: clamp(2em, 2vw, 4em);
+    font-weight: 400;
+    margin: 0px;
+    padding: 20px;
+    text-align: left;
+    position: absolute;
+    background-color: rgba(50,50,50,0.5);
+    width: 100%;
+}
+
+h1 > .title {
+    color: pink;
+    text-decoration: underline;
+}

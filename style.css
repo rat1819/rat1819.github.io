@@ -23,6 +23,7 @@ body {
     overflow: hidden;
     padding: 0px;
     place-items: center;
+    text-decoration: none;
 }
 
 #a {
@@ -32,6 +33,7 @@ body {
     width: calc(100% - 20px);
     margin-top: 75vh;
 }
+
 .card {
     background-color: rgba(255, 255, 255, 0.02);
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -41,6 +43,10 @@ body {
     position: relative;
     width: 300px;
     transition: background 0.2s ease-in-out;
+    justify-content: center;
+    display: flex;
+    padding: 0;
+    align-items: center;
 }
 
 .card::before {
@@ -56,10 +62,22 @@ body {
     width: 100%;
     z-index: 2;
 }
+
+#kit::after {
+    content: "kitty corp";
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 3vh;
+}
+
 .card:hover {
     background: radial-gradient(
         800px circle at 100px 100px, rgba(81, 34, 90, 0.25), transparent 100%
     )
+}
+
+#kit:hover {
+    color: white;
 }
 
 h1 {
