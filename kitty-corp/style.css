@@ -29,3 +29,21 @@ h1 > .title {
     color: pink;
     text-decoration: underline;
 }
+
+h2::before {
+    color: white;
+}
+
+h2 {
+    height: 0;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+}
+
+.back {
+    position: relative;
+    float: right;
+    text-align: right;
+    margin-right: 2%;
+}
