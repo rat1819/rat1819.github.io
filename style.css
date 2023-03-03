@@ -1,6 +1,7 @@
 
 :root {
     --bg-color:rgb(20, 20, 20);
+    --link-color: #e6e8ff;
 }
 
 @keyframes background-pan {
@@ -32,6 +33,7 @@ body {
     max-width: 916px;
     width: calc(100% - 20px);
     margin-top: 75vh;
+    color: var(--link-color);
 }
 
 .card {
